@@ -1,24 +1,24 @@
-[0m[[0minfo[0m] [0mUpdating {file:/root/spark/spark-example-kafka/project/}spark-example-kafka-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#spark-example-kafka-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/code/spark-streaming-redis/project/}spark-streaming-redis-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#spark-streaming-redis-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.11.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.11.2[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.11.2[0m
 [0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.11.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.virtual-void#sbt-dependency-graph;0.7.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
 [0m[[0mdebug[0m] [0m	found net.virtual-void#sbt-dependency-graph;0.7.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -39,14 +39,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -55,15 +55,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -72,20 +72,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63908f16[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2af33c80[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5[0m
@@ -631,14 +631,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -650,14 +650,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -978,13 +978,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -993,17 +993,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -1015,14 +1015,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -1343,18 +1343,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-example-kafka-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-streaming-redis-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -1372,8 +1372,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
@@ -1388,11 +1388,11 @@
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-example-kafka-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-streaming-redis-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.11.2!sbt-assembly.jar[0m
@@ -1447,19 +1447,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1891ms :: artifacts dl 41ms[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT compile produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT runtime produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT test produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT provided produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT optional produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT compile-internal produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT runtime-internal produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT test-internal produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT plugin produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT sources produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT docs produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT pom produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-example-kafka-build;0.1-SNAPSHOT scala-tool produced in /root/spark/spark-example-kafka/project/target/resolution-cache/reports/default-spark-example-kafka-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1891ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1871ms :: artifacts dl 41ms[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT compile produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT runtime produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT test produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT provided produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT optional produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT compile-internal produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT runtime-internal produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT test-internal produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT plugin produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT sources produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT docs produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT pom produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-streaming-redis-build;0.1-SNAPSHOT scala-tool produced in /root/code/spark-streaming-redis/project/target/resolution-cache/reports/default-spark-streaming-redis-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1871ms resolve - 41ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
