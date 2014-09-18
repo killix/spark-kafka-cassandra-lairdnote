@@ -35,19 +35,29 @@ object KafkaNetWork {
     val lines = KafkaUtils.createStream(ssc, zkQuorum, group, topicpMap).map(_._2)
 
 	
-	val stream = lines.flatMap(_.split("\\n")).map(d => p.parseRecord(d)).map(x => (getDomainTime(x).toString,getSize(x).toInt)).reduceByKey(_ + _).map(x => saveResults(x)).print()
+	val stream = lines.flatMap(_.split("\\n"))
+		.map(d => p.parseRecord(d))
+		.map(x => (getDomainTime(x).toString,getSize(x).toInt))
+		.reduceByKey(_ + _)
+		.filter(_._1 != "0")
+		.map(x => saveResults(x)).print()
 	ssc.start()
     ssc.awaitTermination()
   }
 
   def saveResults(result: (String, Int)) = { 
 			val (keys, size) = result
+			println(keys)
 			val Array(timestamp, domain) = keys.split("_")
-			case class Network (uuid: String, timestamp: String, domain: String, size: Int) extends Serializable 
 			val r = new RedisClient("localhost", 6379)
-			val u = uuid
-			r.hmset(domain, Map("uuid"->u.asInstanceOf[Serializable], "timestamp"-> timestamp.asInstanceOf[Serializable]))
-			domain
+			val u = uuid.toString.asInstanceOf[Serializable]
+			val time = timestamp.toString.asInstanceOf[Serializable]
+			val domain_to_string = domain.replace('.', '_')
+			val d = domain_to_string.toString.asInstanceOf[Serializable]
+			r.sadd(d, u)
+			val text = timestamp + "_" + size
+			r.sadd(u, text.toString.asInstanceOf[Serializable])
+			(domain, u, size)
   }
 
 
